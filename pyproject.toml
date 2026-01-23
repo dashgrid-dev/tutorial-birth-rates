@@ -1,0 +1,6 @@
+[project]
+name = "tutorial-birth-rates"
+version = "0.1.0"
+description = "Dashgrid tutorial: German birth statistics dashboard"
+requires-python = ">=3.10"
+dependencies = ["pandas", "requests"]
