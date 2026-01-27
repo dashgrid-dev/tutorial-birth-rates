@@ -20,13 +20,13 @@ This repository contains a Python script that submits German birth statistics to
 - Python 3.10+ installed on your computer
 - [uv](https://github.com/astral-sh/uv) package manager
 
-### Setup
+## Setup
 ```bash
 cd tutorial-birth-rates
 uv sync
 ```
 
-### Configuration
+## Configuration
 In `src/config.py`:
 
 ```python
@@ -37,7 +37,7 @@ BUCKET_3_ID = None  # Stillbirths
 BUCKET_4_ID = None  # Fertility Rate
 ```
 
-### Run
+## Run
 
 ```bash
 uv run python src/main.py
