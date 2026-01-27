@@ -1,35 +1,33 @@
 (c) 2026 by 🛸 Dashgrid.com
 
-# Dashgrid Tutorial: Birth Rates Dashboard
-In this tutorial we will create a dashboard 
-tracking German birth statistics using Dashgrid.
+# Birth & Fertility Rates Germany
 
-The data is taken from DESTATIS-GENESIS (Statistisches Bundesamt).
-https://www-genesis.destatis.de/
+This repository contains a Python script that submits German birth statistics to Dashgrid dashboards via the Data Buckets API. The data is sourced from DESTATIS-GENESIS (Statistisches Bundesamt).
 
-The dashboard will provide the following charts
-- Chart 1: Annual Live Births By Sex in Germany.
-- Chart 2: Annual Live Births Per 1000 Women in Age Groups in Germany
-- Chart 3: Annual Stillborn
-- Chart 4: Annual Fertility Rate per Woman
+**Data included:**
+- Annual live births by sex (1950-2024)
+- Births per 1000 women by age group (1972-2024)
+- Annual stillbirths (1990-2024)
+- Fertility rate per woman (1972-2024)
 
+**Code structure:**
+- `src/main.py` - Main script with functions to read CSV data and submit to API
+- `src/helpers.py` - Basic CSV reading utility
+- `src/config.py` - API key and bucket IDs configuration
+- `src/data/` - CSV data files from DESTATIS
 
-## 1. Prerequisites
-- Dashgrid account
-- Python 3.10+ installed on yor computer
+## Requirements
+- Python 3.10+ installed on your computer
 - [uv](https://github.com/astral-sh/uv) package manager
-- Dashgrid account
 
 ### Setup
-
 ```bash
 cd tutorial-birth-rates
 uv sync
 ```
 
 ### Configuration
-
-Edit `src/config.py` and set your API key and bucket IDs:
+In `src/config.py`:
 
 ```python
 API_KEY = "dk_your_api_key_here"
