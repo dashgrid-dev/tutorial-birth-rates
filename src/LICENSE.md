@@ -1,5 +1,8 @@
-MIT License
+Data:
+ © Statistisches Bundesamt, Wiesbaden, Germany
 
+Code:
+MIT License
 Copyright (c) 2026 Dashgrid.io
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
