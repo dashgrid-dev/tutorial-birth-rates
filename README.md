@@ -2,7 +2,9 @@
 
 # Birth & Fertility Rates Germany
 
-This repository contains a Python script that submits German birth statistics to Dashgrid dashboard via the Data Buckets API. The data is sourced from DESTATIS-GENESIS (Statistisches Bundesamt).
+This repository contains a Python script that submits German birth statistics to Dashgrid dashboard via the Data Buckets API.\
+The data is sourced from DESTATIS-GENESIS (Statistisches Bundesamt).\
+Tutorial URL: [https://dashgrid.io/docs/tutorial-birth-rates](https://dashgrid.io/docs/tutorial-birth-rates)
 
 **Data included:**
 - Annual live births by sex (1950-2024)
