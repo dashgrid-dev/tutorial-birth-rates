@@ -10,7 +10,7 @@ from config import API_KEY, BUCKET_1_ID, BUCKET_2_ID, BUCKET_3_ID, BUCKET_4_ID
 
 
 # Dashgrid API base URL
-API_BASE = "https://api.dashgrid.io"
+API_BASE = "https://data.dashgrid.com"
 
 # Path to CSV data files
 DATA_DIR = Path(__file__).parent / "data"
